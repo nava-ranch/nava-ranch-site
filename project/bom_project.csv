@@ -1,8 +1,8 @@
 asset,category,item,quantity,unit,note
-cabin1,timber_sawn,50x150 mm L=4 m,90,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin1,timber_sawn,50x150 mm L=5 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin1,timber_sawn,50x150 mm L=6 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin1,timber_sawn,50x150 mm L=8.1 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
+cabin1,timber_sawn,50x150 mm L=4 m,90,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin1,timber_sawn,50x150 mm L=5 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin1,timber_sawn,50x150 mm L=6 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin1,timber_sawn,50x150 mm L=8.1 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
 cabin1,timber_sawn,50x200 mm L=8.1 m,8,pcs,"8 cuts, net 64.0 m, splices 0, waste 1%"
 cabin1,timber_sawn,60x200 mm L=5 m,18,pcs,"72 cuts, net 518.9 m, splices 0, waste 2%"
 cabin1,timber_sawn,60x200 mm L=8.1 m,54,pcs,"72 cuts, net 518.9 m, splices 0, waste 2%"
@@ -12,29 +12,29 @@ cabin1,timber_sawn,100x150 mm L=4 m,1,pcs,"2 cuts, net 6.0 m, splices 0, waste 3
 cabin1,timber_sawn,100x150 mm L=5 m,1,pcs,"2 cuts, net 6.0 m, splices 0, waste 33%"
 cabin1,timber_sawn,150x150 mm L=4 m,7,pcs,"20 cuts, net 25.3 m, splices 0, waste 10%"
 cabin1,timber_treated,160x200 mm L=6 m,11,pcs,"6 cuts, net 59.3 m, splices 5, waste 10%"
-cabin1,timber_sawn,"boards (decking, stair, counter) + battens and furring",3.39,m3,+10 % waste included
+cabin1,timber_sawn,"boards (decking, stair, counter) + battens and furring",3.35,m3,+10 % waste included
 cabin1,glazing_fixed,glazing_fixed,8.34,m2,+5 % laps
-cabin1,log_siding_ext,log_siding_ext,44.94,m2,+5 % laps
-cabin1,log_siding_int,log_siding_int,104.71,m2,+5 % laps
-cabin1,mineral_wool_150,mineral_wool_150,93.57,m2,+5 % laps
+cabin1,log_siding_ext,log_siding_ext,40.01,m2,+5 % laps
+cabin1,log_siding_int,log_siding_int,96.59,m2,+5 % laps
+cabin1,mineral_wool_150,mineral_wool_150,87.16,m2,+5 % laps
 cabin1,mineral_wool_200,mineral_wool_200,258.3,m2,+5 % laps
 cabin1,osb3_15,sheet 2.5x1.25 m,61,sheet,174.1 m2 net +8 %
 cabin1,pine_floor,pine_floor,86.1,m2,+5 % laps
 cabin1,pine_tg_ceiling,pine_tg_ceiling,167.89,m2,+5 % laps
-cabin1,plywood_12,sheet 2.5x1.25 m,62,sheet,178.2 m2 net +8 %
+cabin1,plywood_12,sheet 2.5x1.25 m,58,sheet,166.0 m2 net +8 %
 cabin1,plywood_18_tg,sheet 2.44x1.22 m,52,sheet,141.3 m2 net +8 %
-cabin1,pvc_window,pvc_window,1.26,m2,+5 % laps
+cabin1,pvc_window,pvc_window,5.96,m2,+5 % laps
 cabin1,rodent_mesh,rodent_mesh,86.1,m2,+5 % laps
 cabin1,roof_underlay,roof_underlay,201.06,m2,+5 % laps
 cabin1,steel_trapezoid_black,steel_trapezoid_black,197.4,m2,+5 % laps
-cabin1,vapour_membrane,vapour_membrane,301.1,m2,+5 % laps
-cabin1,wrb_membrane,wrb_membrane,128.9,m2,+5 % laps
-cabin1,concrete_c25,concrete C25/30,8.81,m3,+5 %
-cabin1,concrete_block_25,block 40x20x25,0.0,ud,
-cabin1,rebar_b500,rebar B500 d8/d12,516.8,kg,includes 10 % laps
+cabin1,vapour_membrane,vapour_membrane,296.4,m2,+5 % laps
+cabin1,wrb_membrane,wrb_membrane,124.2,m2,+5 % laps
+cabin1,concrete_c25,concrete C25/30,9.11,m3,+5 %
+cabin1,concrete_block_25,block 40x20x25,0.0,ea,
+cabin1,rebar_b500,rebar B500 d8/d12,531.8,kg,includes 10 % laps
 cabin1,dpc_bitumen,damp-proof course under sill plate,0,m,
-cabin1,ext_door_insulated,insulated exterior door,1,ud,
-cabin1,fasteners_kit,nail_3_1x90_kg,29,kg,approx. 0.03 kg per m of framing
+cabin1,ext_door_insulated,insulated exterior door,1,ea,
+cabin1,fasteners_kit,nail_3_1x90_kg,30,kg,approx. 0.03 kg per m of framing
 cabin1,fasteners_kit,screw_5x80_box200,18,box,OSB @150 edges / 300 field
 cabin1,fasteners_kit,post_base_150_adj,20,pcs,galvanized post base
 cabin1,fasteners_kit,deck_screw_5x60_box500,3,box,"decking, A2 stainless or galvanized"
@@ -56,12 +56,20 @@ cabin1,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin1,plumbing_kit,water_heater_80l,1,pcs,variant
 cabin1,plumbing_kit,pex_pipe_m,34,m,variant
 cabin1,plumbing_kit,pvc_drain_m,18,m,variant
-cabin1,component,double_bed (see component BOM),1,ud,component instance
-cabin1,varios,"sealing tapes, foam, sills, sheet trims, flue",1,global,ESTIMATE
-cabin2,timber_sawn,50x150 mm L=4 m,90,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin2,timber_sawn,50x150 mm L=5 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin2,timber_sawn,50x150 mm L=6 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
-cabin2,timber_sawn,50x150 mm L=8.1 m,1,pcs,"113 cuts, net 269.5 m, splices 0, waste 29%"
+cabin1,interior_kit,int_door_hinged_80,1,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
+cabin1,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
+cabin1,stove_kit,chimney_stove_pipe_m,4.16,m,"single wall black stove pipe, stove to ceiling support"
+cabin1,stove_kit,chimney_twinwall_150_m,3.01,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
+cabin1,stove_kit,co_smoke_alarm,2,pcs,model
+cabin1,stove_kit,fresh_air_kit,1,pcs,"100 mm duct through the floor, damper, rodent mesh, exterior hood"
+cabin1,stove_kit,hearth_plate,1.32,m2,non-combustible hearth: 20 mm stone or 3 mm steel on 12 mm cement board
+cabin1,stove_kit,wood_stove_8kw,1,pcs,"EN 13240 / EN 16510, room-sealed capable, outside-air spigot"
+cabin1,component,double_bed (see component BOM),1,ea,component instance
+cabin1,misc,"sealing tapes, foam, sills, sheet trims",1,global,ESTIMATE
+cabin2,timber_sawn,50x150 mm L=4 m,90,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin2,timber_sawn,50x150 mm L=5 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin2,timber_sawn,50x150 mm L=6 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
+cabin2,timber_sawn,50x150 mm L=8.1 m,1,pcs,"130 cuts, net 286.0 m, splices 0, waste 25%"
 cabin2,timber_sawn,50x200 mm L=8.1 m,8,pcs,"8 cuts, net 64.0 m, splices 0, waste 1%"
 cabin2,timber_sawn,60x200 mm L=5 m,18,pcs,"72 cuts, net 518.9 m, splices 0, waste 2%"
 cabin2,timber_sawn,60x200 mm L=8.1 m,54,pcs,"72 cuts, net 518.9 m, splices 0, waste 2%"
@@ -71,29 +79,29 @@ cabin2,timber_sawn,100x150 mm L=4 m,1,pcs,"2 cuts, net 6.0 m, splices 0, waste 3
 cabin2,timber_sawn,100x150 mm L=5 m,1,pcs,"2 cuts, net 6.0 m, splices 0, waste 33%"
 cabin2,timber_sawn,150x150 mm L=4 m,7,pcs,"20 cuts, net 25.3 m, splices 0, waste 10%"
 cabin2,timber_treated,160x200 mm L=6 m,11,pcs,"6 cuts, net 59.3 m, splices 5, waste 10%"
-cabin2,timber_sawn,"boards (decking, stair, counter) + battens and furring",3.39,m3,+10 % waste included
+cabin2,timber_sawn,"boards (decking, stair, counter) + battens and furring",3.35,m3,+10 % waste included
 cabin2,glazing_fixed,glazing_fixed,8.34,m2,+5 % laps
-cabin2,log_siding_ext,log_siding_ext,44.94,m2,+5 % laps
-cabin2,log_siding_int,log_siding_int,104.71,m2,+5 % laps
-cabin2,mineral_wool_150,mineral_wool_150,93.57,m2,+5 % laps
+cabin2,log_siding_ext,log_siding_ext,40.01,m2,+5 % laps
+cabin2,log_siding_int,log_siding_int,96.59,m2,+5 % laps
+cabin2,mineral_wool_150,mineral_wool_150,87.16,m2,+5 % laps
 cabin2,mineral_wool_200,mineral_wool_200,258.3,m2,+5 % laps
 cabin2,osb3_15,sheet 2.5x1.25 m,61,sheet,174.1 m2 net +8 %
 cabin2,pine_floor,pine_floor,86.1,m2,+5 % laps
 cabin2,pine_tg_ceiling,pine_tg_ceiling,167.89,m2,+5 % laps
-cabin2,plywood_12,sheet 2.5x1.25 m,62,sheet,178.2 m2 net +8 %
+cabin2,plywood_12,sheet 2.5x1.25 m,58,sheet,166.0 m2 net +8 %
 cabin2,plywood_18_tg,sheet 2.44x1.22 m,52,sheet,141.3 m2 net +8 %
-cabin2,pvc_window,pvc_window,1.26,m2,+5 % laps
+cabin2,pvc_window,pvc_window,5.96,m2,+5 % laps
 cabin2,rodent_mesh,rodent_mesh,86.1,m2,+5 % laps
 cabin2,roof_underlay,roof_underlay,201.06,m2,+5 % laps
 cabin2,steel_trapezoid_black,steel_trapezoid_black,197.4,m2,+5 % laps
-cabin2,vapour_membrane,vapour_membrane,301.1,m2,+5 % laps
-cabin2,wrb_membrane,wrb_membrane,128.9,m2,+5 % laps
-cabin2,concrete_c25,concrete C25/30,8.81,m3,+5 %
-cabin2,concrete_block_25,block 40x20x25,0.0,ud,
-cabin2,rebar_b500,rebar B500 d8/d12,516.8,kg,includes 10 % laps
+cabin2,vapour_membrane,vapour_membrane,296.4,m2,+5 % laps
+cabin2,wrb_membrane,wrb_membrane,124.2,m2,+5 % laps
+cabin2,concrete_c25,concrete C25/30,9.11,m3,+5 %
+cabin2,concrete_block_25,block 40x20x25,0.0,ea,
+cabin2,rebar_b500,rebar B500 d8/d12,531.8,kg,includes 10 % laps
 cabin2,dpc_bitumen,damp-proof course under sill plate,0,m,
-cabin2,ext_door_insulated,insulated exterior door,1,ud,
-cabin2,fasteners_kit,nail_3_1x90_kg,29,kg,approx. 0.03 kg per m of framing
+cabin2,ext_door_insulated,insulated exterior door,1,ea,
+cabin2,fasteners_kit,nail_3_1x90_kg,30,kg,approx. 0.03 kg per m of framing
 cabin2,fasteners_kit,screw_5x80_box200,18,box,OSB @150 edges / 300 field
 cabin2,fasteners_kit,post_base_150_adj,20,pcs,galvanized post base
 cabin2,fasteners_kit,deck_screw_5x60_box500,3,box,"decking, A2 stainless or galvanized"
@@ -115,8 +123,16 @@ cabin2,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin2,plumbing_kit,water_heater_30l,1,pcs,variant
 cabin2,plumbing_kit,pex_pipe_m,30,m,variant
 cabin2,plumbing_kit,pvc_drain_m,16,m,variant
-cabin2,component,double_bed (see component BOM),1,ud,component instance
-cabin2,varios,"sealing tapes, foam, sills, sheet trims, flue",1,global,ESTIMATE
+cabin2,interior_kit,int_door_hinged_80,1,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
+cabin2,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
+cabin2,stove_kit,chimney_stove_pipe_m,4.16,m,"single wall black stove pipe, stove to ceiling support"
+cabin2,stove_kit,chimney_twinwall_150_m,3.01,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
+cabin2,stove_kit,co_smoke_alarm,2,pcs,model
+cabin2,stove_kit,fresh_air_kit,1,pcs,"100 mm duct through the floor, damper, rodent mesh, exterior hood"
+cabin2,stove_kit,hearth_plate,1.32,m2,non-combustible hearth: 20 mm stone or 3 mm steel on 12 mm cement board
+cabin2,stove_kit,wood_stove_8kw,1,pcs,"EN 13240 / EN 16510, room-sealed capable, outside-air spigot"
+cabin2,component,double_bed (see component BOM),1,ea,component instance
+cabin2,misc,"sealing tapes, foam, sills, sheet trims",1,global,ESTIMATE
 terrain_walls_v0.8,walls/slopes,"Welded mesh, hot-dip galvanized after welding, 50x50 mm, 2.7 mm wire, 1.5 x 20 m roll",9131.7,m2,"v0.8 earthworks and retaining, 5 terraces"
 terrain_walls_v0.8,walls/slopes,"Non-woven PP geotextile 150-200 g/m², UV stabilized",2375.5,m2,"v0.8 earthworks and retaining, 5 terraces"
 terrain_walls_v0.8,walls/slopes,B500 rebar (8 mm staples; 16 mm nails),1881.6,kg,"v0.8 earthworks and retaining, 5 terraces"
