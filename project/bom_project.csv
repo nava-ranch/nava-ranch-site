@@ -26,10 +26,10 @@ cabin1,pine_floor,pine_floor,86.1,m2,+5 % laps
 cabin1,pine_tg_ceiling,pine_tg_ceiling,170.58,m2,+5 % laps
 cabin1,plywood_12,sheet 2.5x1.25 m,44,sheet,126.3 m2 net +8 %
 cabin1,plywood_18_tg,sheet 2.44x1.22 m,53,sheet,144.0 m2 net +8 %
-cabin1,pvc_window,pvc_window,3.96,m2,+5 % laps
 cabin1,rodent_mesh,rodent_mesh,86.1,m2,+5 % laps
 cabin1,roof_underlay,roof_underlay,201.06,m2,+5 % laps
 cabin1,steel_trapezoid_black,steel_trapezoid_black,197.4,m2,+5 % laps
+cabin1,timber_window,timber_window,3.96,m2,+5 % laps
 cabin1,vapour_membrane,vapour_membrane,294.06,m2,+5 % laps
 cabin1,wrb_membrane,wrb_membrane,121.86,m2,+5 % laps
 cabin1,concrete_c25,concrete C25/30,9.26,m3,+5 %
@@ -54,24 +54,43 @@ cabin1,fasteners_kit,screw_8x200_box50,2,box,from model
 cabin1,fasteners_kit,sonotube_300_m,32,m,from model
 cabin1,fasteners_kit,steel_strap_40x2_m,35,m,from model
 cabin1,plumbing_kit,wc,1,pcs,variant
-cabin1,plumbing_kit,shower_tray_90,1,pcs,variant
 cabin1,plumbing_kit,washbasin,1,pcs,variant
 cabin1,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin1,plumbing_kit,water_heater_100l,1,pcs,variant
 cabin1,plumbing_kit,pex_pipe_m,34,m,variant
 cabin1,plumbing_kit,pvc_drain_m,18,m,variant
-cabin1,interior_kit,dishwasher_45,1,pcs,model
+cabin1,interior_kit,dishwasher_45,1,pcs,fully integrated behind a solid wood front
+cabin1,interior_kit,forged_iron_hardware_set,1,pcs,"v0.16: forged iron door, window and cabinet hardware, hooks and towel rails (per cabin)"
 cabin1,interior_kit,freezer_undercounter,1,pcs,model
 cabin1,interior_kit,fridge_undercounter,1,pcs,model
 cabin1,interior_kit,induction_downdraft_2z,1,pcs,2-zone induction cooktop with built-in recirculating downdraft extractor
-cabin1,interior_kit,int_door_hinged_80,3,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
-cabin1,interior_kit,kitchen_base_units_m,4.2,m,"flat-pack base carcasses with fronts and drawers, 60 cm deep"
-cabin1,interior_kit,kitchen_knee_drawers_m,4.2,m,low pull-out drawers in the space under the slope
-cabin1,interior_kit,kitchen_peninsula,1,pcs,peninsula / breakfast bar 0.60 x 1.37 m with end panel
-cabin1,interior_kit,kitchen_tap,1,pcs,model
-cabin1,interior_kit,kitchen_worktop_m,4.2,m,solid wood or laminate worktop 40 mm
-cabin1,interior_kit,open_shelf_m,9.15,m,solid wood shelf on brackets
+cabin1,interior_kit,int_door_hinged_80,3,pcs,"v0.16: solid pine ledged-and-braced plank door 80x210, oiled, forged iron strap hinges and thumb latch (was 190). FLAG: +130 EUR per door"
+cabin1,interior_kit,kitchen_base_units_m,4.2,m,"v0.16: joiner-made solid oak or beech carcasses and fronts, oiled, forged iron pulls (was 280 flat-pack). FLAG: +240 EUR/m"
+cabin1,interior_kit,kitchen_knee_drawers_m,4.2,m,"low solid wood pull-out drawers under the slope, oiled"
+cabin1,interior_kit,kitchen_peninsula,1,pcs,solid oak peninsula / breakfast bar 0.60 x 1.37 m
+cabin1,interior_kit,kitchen_tap,1,pcs,brass or black iron bridge tap
+cabin1,interior_kit,kitchen_worktop_m,4.2,m,"v0.16: solid oak worktop 40 mm, oiled (no laminate). FLAG: re-oil every 6-12 months, care around the sink; local stone is the alternative at about 220 EUR/m"
+cabin1,interior_kit,natural_oil_finish_m2,230,m2,v0.16: hardwax or linseed oil on all visible interior wood (no lacquer). FLAG: re-oil floors every 2-3 years
+cabin1,interior_kit,open_shelf_m,9.15,m,solid wood shelf on forged iron brackets
 cabin1,interior_kit,oven_60_undercounter,1,pcs,built-in 60 cm oven under the cooktop
+cabin1,interior_kit,shower_screen_steel,1,pcs,clear glass in a black steel frame
+cabin1,interior_kit,shower_stone_floor,1,pcs,v0.16: local stone shower floor and stone wall panels in the wet zone (no acrylic tray). FLAG: +280 EUR over a tray
+cabin1,lighting_kit,bulkhead_cage_iron,1,pcs,"iron cage bulkhead, E27"
+cabin1,lighting_kit,dimmer_trailing_edge,9,pcs,"trailing-edge rotary dimmer, LED compatible, brass or black iron plate"
+cabin1,lighting_kit,filament_led_2200k,34,pcs,"amber filament LED 2200 K, CRI >= 90, dimmable (trailing edge), 4-6 W"
+cabin1,lighting_kit,lantern_iron_ext,3,pcs,"exterior forged iron lantern, seeded glass, IP44, E27"
+cabin1,lighting_kit,lighting_cable_m,140,m,"twisted cloth-covered cable where exposed, NYM 3x1.5 concealed"
+cabin1,lighting_kit,picture_light_iron,1,pcs,"iron picture-light arm, E14 (stove accent, away from the flue)"
+cabin1,lighting_kit,reading_lamp_leather,1,pcs,"floor reading lamp, iron + leather"
+cabin1,lighting_kit,sconce_bath_ip44,2,pcs,"IP44 black iron + glass sconce, E27"
+cabin1,lighting_kit,sconce_swingarm_iron,6,pcs,"forged iron swing arm, linen shade, own switch on the body, E27"
+cabin1,lighting_kit,sconce_wallwash_iron,10,pcs,"forged iron up/down wall-wash sconce on an oiled oak back plate, E27"
+cabin1,lighting_kit,shower_light_ip65,1,pcs,"IP65 iron cage + glass wall light, E27"
+cabin1,lighting_kit,step_light_iron,2,pcs,"recessed step light with iron louvre plate, E14"
+cabin1,lighting_kit,switched_socket,2,pcs,model
+cabin1,lighting_kit,task_gooseneck_iron,3,pcs,"barn-style forged iron gooseneck with steel shade, E27"
+cabin1,lighting_kit,two_way_switch,4,pcs,"toggle switch, brass/porcelain plate"
+cabin1,lighting_kit,uplight_grazer_iron,4,pcs,"small iron grazer/uplight, E14"
 cabin1,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
 cabin1,stove_kit,chimney_stove_pipe_m,4.1,m,"single wall black stove pipe, stove to ceiling support"
 cabin1,stove_kit,chimney_twinwall_150_m,3.79,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
@@ -109,10 +128,10 @@ cabin2,pine_floor,pine_floor,86.1,m2,+5 % laps
 cabin2,pine_tg_ceiling,pine_tg_ceiling,170.58,m2,+5 % laps
 cabin2,plywood_12,sheet 2.5x1.25 m,44,sheet,126.3 m2 net +8 %
 cabin2,plywood_18_tg,sheet 2.44x1.22 m,53,sheet,144.0 m2 net +8 %
-cabin2,pvc_window,pvc_window,3.96,m2,+5 % laps
 cabin2,rodent_mesh,rodent_mesh,86.1,m2,+5 % laps
 cabin2,roof_underlay,roof_underlay,201.06,m2,+5 % laps
 cabin2,steel_trapezoid_black,steel_trapezoid_black,197.4,m2,+5 % laps
+cabin2,timber_window,timber_window,3.96,m2,+5 % laps
 cabin2,vapour_membrane,vapour_membrane,294.06,m2,+5 % laps
 cabin2,wrb_membrane,wrb_membrane,121.86,m2,+5 % laps
 cabin2,concrete_c25,concrete C25/30,9.26,m3,+5 %
@@ -137,24 +156,43 @@ cabin2,fasteners_kit,screw_8x200_box50,2,box,from model
 cabin2,fasteners_kit,sonotube_300_m,32,m,from model
 cabin2,fasteners_kit,steel_strap_40x2_m,46,m,from model
 cabin2,plumbing_kit,wc,1,pcs,variant
-cabin2,plumbing_kit,shower_tray_80,1,pcs,variant
 cabin2,plumbing_kit,washbasin,1,pcs,variant
 cabin2,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin2,plumbing_kit,water_heater_100l,1,pcs,variant
 cabin2,plumbing_kit,pex_pipe_m,30,m,variant
 cabin2,plumbing_kit,pvc_drain_m,16,m,variant
-cabin2,interior_kit,dishwasher_45,1,pcs,model
+cabin2,interior_kit,dishwasher_45,1,pcs,fully integrated behind a solid wood front
+cabin2,interior_kit,forged_iron_hardware_set,1,pcs,"v0.16: forged iron door, window and cabinet hardware, hooks and towel rails (per cabin)"
 cabin2,interior_kit,freezer_undercounter,1,pcs,model
 cabin2,interior_kit,fridge_undercounter,1,pcs,model
 cabin2,interior_kit,induction_downdraft_2z,1,pcs,2-zone induction cooktop with built-in recirculating downdraft extractor
-cabin2,interior_kit,int_door_hinged_80,3,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
-cabin2,interior_kit,kitchen_base_units_m,4.2,m,"flat-pack base carcasses with fronts and drawers, 60 cm deep"
-cabin2,interior_kit,kitchen_knee_drawers_m,4.2,m,low pull-out drawers in the space under the slope
-cabin2,interior_kit,kitchen_peninsula,1,pcs,peninsula / breakfast bar 0.60 x 1.37 m with end panel
-cabin2,interior_kit,kitchen_tap,1,pcs,model
-cabin2,interior_kit,kitchen_worktop_m,4.2,m,solid wood or laminate worktop 40 mm
-cabin2,interior_kit,open_shelf_m,9.15,m,solid wood shelf on brackets
+cabin2,interior_kit,int_door_hinged_80,3,pcs,"v0.16: solid pine ledged-and-braced plank door 80x210, oiled, forged iron strap hinges and thumb latch (was 190). FLAG: +130 EUR per door"
+cabin2,interior_kit,kitchen_base_units_m,4.2,m,"v0.16: joiner-made solid oak or beech carcasses and fronts, oiled, forged iron pulls (was 280 flat-pack). FLAG: +240 EUR/m"
+cabin2,interior_kit,kitchen_knee_drawers_m,4.2,m,"low solid wood pull-out drawers under the slope, oiled"
+cabin2,interior_kit,kitchen_peninsula,1,pcs,solid oak peninsula / breakfast bar 0.60 x 1.37 m
+cabin2,interior_kit,kitchen_tap,1,pcs,brass or black iron bridge tap
+cabin2,interior_kit,kitchen_worktop_m,4.2,m,"v0.16: solid oak worktop 40 mm, oiled (no laminate). FLAG: re-oil every 6-12 months, care around the sink; local stone is the alternative at about 220 EUR/m"
+cabin2,interior_kit,natural_oil_finish_m2,230,m2,v0.16: hardwax or linseed oil on all visible interior wood (no lacquer). FLAG: re-oil floors every 2-3 years
+cabin2,interior_kit,open_shelf_m,9.15,m,solid wood shelf on forged iron brackets
 cabin2,interior_kit,oven_60_undercounter,1,pcs,built-in 60 cm oven under the cooktop
+cabin2,interior_kit,shower_screen_steel,1,pcs,clear glass in a black steel frame
+cabin2,interior_kit,shower_stone_floor,1,pcs,v0.16: local stone shower floor and stone wall panels in the wet zone (no acrylic tray). FLAG: +280 EUR over a tray
+cabin2,lighting_kit,bulkhead_cage_iron,1,pcs,"iron cage bulkhead, E27"
+cabin2,lighting_kit,dimmer_trailing_edge,9,pcs,"trailing-edge rotary dimmer, LED compatible, brass or black iron plate"
+cabin2,lighting_kit,filament_led_2200k,34,pcs,"amber filament LED 2200 K, CRI >= 90, dimmable (trailing edge), 4-6 W"
+cabin2,lighting_kit,lantern_iron_ext,3,pcs,"exterior forged iron lantern, seeded glass, IP44, E27"
+cabin2,lighting_kit,lighting_cable_m,140,m,"twisted cloth-covered cable where exposed, NYM 3x1.5 concealed"
+cabin2,lighting_kit,picture_light_iron,1,pcs,"iron picture-light arm, E14 (stove accent, away from the flue)"
+cabin2,lighting_kit,reading_lamp_leather,1,pcs,"floor reading lamp, iron + leather"
+cabin2,lighting_kit,sconce_bath_ip44,2,pcs,"IP44 black iron + glass sconce, E27"
+cabin2,lighting_kit,sconce_swingarm_iron,6,pcs,"forged iron swing arm, linen shade, own switch on the body, E27"
+cabin2,lighting_kit,sconce_wallwash_iron,10,pcs,"forged iron up/down wall-wash sconce on an oiled oak back plate, E27"
+cabin2,lighting_kit,shower_light_ip65,1,pcs,"IP65 iron cage + glass wall light, E27"
+cabin2,lighting_kit,step_light_iron,2,pcs,"recessed step light with iron louvre plate, E14"
+cabin2,lighting_kit,switched_socket,2,pcs,model
+cabin2,lighting_kit,task_gooseneck_iron,3,pcs,"barn-style forged iron gooseneck with steel shade, E27"
+cabin2,lighting_kit,two_way_switch,4,pcs,"toggle switch, brass/porcelain plate"
+cabin2,lighting_kit,uplight_grazer_iron,4,pcs,"small iron grazer/uplight, E14"
 cabin2,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
 cabin2,stove_kit,chimney_stove_pipe_m,4.1,m,"single wall black stove pipe, stove to ceiling support"
 cabin2,stove_kit,chimney_twinwall_150_m,3.79,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
