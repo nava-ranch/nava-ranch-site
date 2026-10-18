@@ -60,7 +60,18 @@ cabin1,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin1,plumbing_kit,water_heater_80l,1,pcs,variant
 cabin1,plumbing_kit,pex_pipe_m,34,m,variant
 cabin1,plumbing_kit,pvc_drain_m,18,m,variant
+cabin1,interior_kit,dishwasher_45,1,pcs,model
+cabin1,interior_kit,freezer_undercounter,1,pcs,model
+cabin1,interior_kit,fridge_undercounter,1,pcs,model
+cabin1,interior_kit,induction_downdraft_2z,1,pcs,2-zone induction cooktop with built-in recirculating downdraft extractor
 cabin1,interior_kit,int_door_hinged_80,2,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
+cabin1,interior_kit,kitchen_base_units_m,4.2,m,"flat-pack base carcasses with fronts and drawers, 60 cm deep"
+cabin1,interior_kit,kitchen_knee_drawers_m,4.2,m,low pull-out drawers in the space under the slope
+cabin1,interior_kit,kitchen_peninsula,1,pcs,peninsula / breakfast bar 0.60 x 1.37 m with end panel
+cabin1,interior_kit,kitchen_tap,1,pcs,model
+cabin1,interior_kit,kitchen_worktop_m,4.2,m,solid wood or laminate worktop 40 mm
+cabin1,interior_kit,open_shelf_m,9.15,m,solid wood shelf on brackets
+cabin1,interior_kit,oven_60_undercounter,1,pcs,built-in 60 cm oven under the cooktop
 cabin1,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
 cabin1,stove_kit,chimney_stove_pipe_m,4.16,m,"single wall black stove pipe, stove to ceiling support"
 cabin1,stove_kit,chimney_twinwall_150_m,3.01,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
@@ -131,7 +142,18 @@ cabin2,plumbing_kit,kitchen_sink,1,pcs,variant
 cabin2,plumbing_kit,water_heater_30l,1,pcs,variant
 cabin2,plumbing_kit,pex_pipe_m,30,m,variant
 cabin2,plumbing_kit,pvc_drain_m,16,m,variant
+cabin2,interior_kit,dishwasher_45,1,pcs,model
+cabin2,interior_kit,freezer_undercounter,1,pcs,model
+cabin2,interior_kit,fridge_undercounter,1,pcs,model
+cabin2,interior_kit,induction_downdraft_2z,1,pcs,2-zone induction cooktop with built-in recirculating downdraft extractor
 cabin2,interior_kit,int_door_hinged_80,2,pcs,"solid core hinged door 80x203 with frame, 3 hinges, latch set"
+cabin2,interior_kit,kitchen_base_units_m,4.2,m,"flat-pack base carcasses with fronts and drawers, 60 cm deep"
+cabin2,interior_kit,kitchen_knee_drawers_m,4.2,m,low pull-out drawers in the space under the slope
+cabin2,interior_kit,kitchen_peninsula,1,pcs,peninsula / breakfast bar 0.60 x 1.37 m with end panel
+cabin2,interior_kit,kitchen_tap,1,pcs,model
+cabin2,interior_kit,kitchen_worktop_m,4.2,m,solid wood or laminate worktop 40 mm
+cabin2,interior_kit,open_shelf_m,9.15,m,solid wood shelf on brackets
+cabin2,interior_kit,oven_60_undercounter,1,pcs,built-in 60 cm oven under the cooktop
 cabin2,stove_kit,chimney_roof_kit,1,pcs,"ceiling support box, firestop, 60 deg roof flashing, storm collar, rain cap with spark arrestor"
 cabin2,stove_kit,chimney_stove_pipe_m,4.16,m,"single wall black stove pipe, stove to ceiling support"
 cabin2,stove_kit,chimney_twinwall_150_m,3.01,m,"insulated stainless twin wall, 150 mm flue, 50 mm clearance class"
