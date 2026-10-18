@@ -74,9 +74,16 @@ cabin2,plumbing_kit,pex_pipe_m,22,m,variante
 cabin2,plumbing_kit,pvc_drain_m,14,m,variante
 cabin2,component,double_bed (ver BOM del componente),1,ud,instancia de componente
 cabin2,varios,"cintas estanqueidad, espuma, vierteaguas, remates chapa, chimenea",1,global,ESTIMACION
-terrain_walls_v0.5,muros/taludes,"Malla soldada galv. 50x50 2,7 mm",6100.4,m2,v0.5 todas las terrazas
-terrain_walls_v0.5,muros/taludes,Geotextil no tejido 150-200 g/m2,3150.0,m2,v0.5 todas las terrazas
-terrain_walls_v0.5,muros/taludes,Varilla corrugada,3186.9,kg,v0.5 todas las terrazas
-terrain_walls_v0.5,muros/taludes,Grava 16-32,34.0,m3,v0.5 todas las terrazas
-terrain_walls_v0.5,muros/taludes,Tubo drenante DN80,324.0,m,v0.5 todas las terrazas
-terrain_walls_v0.5,muros/taludes,Cemento 25 kg,243.6,saco,v0.5 todas las terrazas
+terrain_walls_v0.8,muros/taludes,"Malla soldada galvanizada en caliente despues de soldar, 50x50 mm, alambre 2,7 mm, rollo 1,5 x 20 m",9131.7,m2,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,"Geotextile no tejido PP 150-200 g/m2, estabilizado UV",2375.5,m2,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Varilla corrugada B500 (horquillas 8 mm; clavos 16 mm),1881.6,kg,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Grava lavada 16-32 (dren de pie y chimenea),92.6,m3,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Tubo corrugado perforado DN100 con calcetin geotextile,356.4,m,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,"Cemento CEM II 42,5 saco 25 kg (lechada de clavos)",138.2,saco,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,"Estacas vivas de sauce/alamo 0,6-1 m (cortadas en la zona)",223.9,ud,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Salidas de dren: tubo liso PVC DN110 + codos + rejilla anti-roedor,16,ud,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Grava de pie de salida / escollera de piedra de obra (si aparece),4.8,m3,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Semilla de pradera rustica + paja para taludes y caras,58,kg,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,"Alambre de atar galvanizado 1,2 mm",85,kg,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,"Estacas de replanteo, cuerda, spray",1,lote,"v0.8 movimiento de tierras y contencion, 5 terrazas"
+terrain_walls_v0.8,muros/taludes,Laminas de plastico para proteger acopios y caras abiertas,400,m2,"v0.8 movimiento de tierras y contencion, 5 terrazas"
