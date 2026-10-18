@@ -1,3 +1,3 @@
-# Nava Ranch (sitio publico)
+# Nava Ranch (public site)
 
-Solo contenido generado. Fuente privada. No editar a mano: se sobrescribe en cada despliegue.
+Generated content only. Private source. Do not edit by hand: overwritten on every deploy.
