@@ -203,34 +203,45 @@ cabin2,stove_kit,heat_shield_m2,2.24,m2,"v0.15: non-combustible heat shield (ste
 cabin2,stove_kit,wood_stove_8kw,1,pcs,"EN 13240 / EN 16510, room-sealed capable, outside-air spigot"
 cabin2,component,double_bed (see component BOM),1,ea,component instance
 cabin2,misc,"sealing tapes, foam, sills, sheet trims",1,global,ESTIMATE
-deck_t4,timber_treated,"posts 145x145 (deck, lounge)",1.09,m3,UC4 for the posts on T5
-deck_t4,timber_treated,beams 2x 50x200 and lounge roof beams,0.9,m3,ESTIMATE
-deck_t4,timber_treated,joists 50x200 @ 0.40,1.26,m3,ESTIMATE
-deck_t4,timber_treated,decking 28x140 (larch or treated pine),1.99,m3,ESTIMATE
-deck_t4,timber_treated,braces 45x145 (outer posts),0.16,m3,ESTIMATE
-deck_t4,timber_treated,garden steps (treads + stringers),0.17,m3,ESTIMATE
-deck_t4,timber_sawn,lounge rafters 50x200 @ 0.60,0.65,m3,ESTIMATE
-deck_t4,concrete_c25,bored piles on T5 + cast-in-lift pads on T4,3.25,m3,ESTIMATE
-deck_t4,rebar_b500,pile and pier rebar,188.93,kg,ESTIMATE
-deck_t4,steel_trapezoid_black,lounge roof sheet,35.61,m2,ESTIMATE
-deck_t4,osb3_15,lounge roof sarking,11.08,sheet,ESTIMATE
-deck_t4,hardware,post bases,19,pcs,ESTIMATE
-deck_t4,hardware,brace sets,11,set,ESTIMATE
-deck_t4,hardware,joist hangers,65.46,pcs,ESTIMATE
+deck_t4,timber_treated,"decking 28x140 larch, oiled",2.0,m3,ESTIMATE
+deck_t4,timber_treated,joists 50x150 @ 0.40,1.34,m3,ESTIMATE
+deck_t4,timber_treated,beams 2x 50x150,0.6,m3,ESTIMATE
+deck_t4,timber_treated,"posts 150x150 / 120x120 (stations, lounge)",0.76,m3,ESTIMATE
+deck_t4,timber_sawn,lounge roof rafters 50x200,0.23,m3,ESTIMATE
+deck_t4,concrete_c25,pad footings 45x45x30 on T5,1.27,m3,ESTIMATE
+deck_t4,hardware,post bases,27,pcs,ESTIMATE
 deck_t4,hardware,deck screws A2 (box 500),4,box,ESTIMATE
-deck_t4,guard,deck guard 1.0 m,29.5,m,ESTIMATE
-deck_t4,lounge,built-in benches,4.9,m,ESTIMATE
-deck_t4,bathroom,"insulated stud walls (50x100, wool, plywood, log siding)",18.24,m2,ESTIMATE
-deck_t4,bathroom,insulated floor and roof build-up,7.2,m2,ESTIMATE
+deck_t4,steel_trapezoid_black,"lounge roof, black standing seam (curved eave cut on site)",13.76,m2,ESTIMATE
+deck_t4,lounge,curved built-in oak bench,7.06,m,ESTIMATE
+deck_t4,lounge,removable glazed oak screens on the curved face (ASSUMPTION),7.06,m,ESTIMATE
+deck_t4,bathroom,insulated stud walls (placeholder),14.54,m2,ESTIMATE
+deck_t4,bathroom,floor and roof build-up (placeholder),4.12,m2,ESTIMATE
 deck_t4,bathroom,door,1,pcs,ESTIMATE
-deck_t4,bathroom,window,1,pcs,ESTIMATE
-deck_t4,bathroom,extract fan and panel heater,1,set,ESTIMATE
-deck_t4,plumbing_kit,wc,1,pcs,variant
-deck_t4,plumbing_kit,washbasin,1,pcs,variant
-deck_t4,plumbing_kit,water_heater_30l,1,pcs,variant
-deck_t4,plumbing_kit,pex_pipe_m,30,m,ESTIMATE
-deck_t4,plumbing_kit,pvc_drain_m,12,m,ESTIMATE
-deck_t4,bathroom,heat trace for the supply line,30,m,ESTIMATE
+deck_t4,plumbing_kit,wc,1,pcs,placeholder
+deck_t4,plumbing_kit,washbasin,1,pcs,placeholder
+deck_t4,plumbing_kit,water_heater_30l,1,pcs,placeholder
+deck_t4,stations,"stone-faced masonry base (cement block core, local stone face)",2.31,m3,ESTIMATE
+deck_t4,stations,stone counter slabs 50 mm (local limestone or granite),5.35,m2,ESTIMATE
+deck_t4,stations,"reinforced slab 150 mm + stone floor on mortar bed (station zone, non-combustible)",10.58,m2,ESTIMATE
+deck_t4,stations,"asado grill: steel frame, crank-height grate, ember brasero, firebrick bed",2,pcs,ESTIMATE
+deck_t4,stations,"steel hood + 250 mm steel flue to +5.2 m with rain cap, guyed to the roof posts",2,pcs,ESTIMATE
+deck_t4,stations,station roofs: black standing-seam steel on timber,9.8,m2,ESTIMATE
+deck_t4,stations,stone plinths for roof posts,8,pcs,ESTIMATE
+deck_t4,stations,"firewood/charcoal bins between the raking posts (oak, iron)",2,pcs,ESTIMATE
+deck_t4,station_water,"fireclay sink 600x450, undermounted in the stone counter",2,pcs,ESTIMATE
+deck_t4,station_water,brass bridge tap (or galvanized steel),2,pcs,ESTIMATE
+deck_t4,station_water,"frost-safe supply: PE 25 in a trench at 0.9 m (ASSUMPTION route 25 m per station, from the nearest cabin services room)",50,m,ESTIMATE
+deck_t4,station_water,stop-and-drain (drain-down) valve at frost depth + valve box + key; insulated riser in the stone base,2,pcs,ESTIMATE
+deck_t4,station_water,"waste 50 mm to a grease trap, falls 2 % (ASSUMPTION 8 m per station)",16,m,ESTIMATE
+deck_t4,station_water,"precast concrete grease trap, buried, with cast-iron lid; outlet to site drainage/septic (connection excluded, no site data)",2,pcs,ESTIMATE
+deck_t4,stairs,treads and bridge decking: solid larch 45 mm,0.82,m3,ESTIMATE
+deck_t4,stair_kit,"stringers and bridge beams: galvanized steel PFC 200, painted black",31.26,m,ESTIMATE
+deck_t4,stair_kit,"bridge posts SHS 100, galvanized, base plates",10.61,m,ESTIMATE
+deck_t4,concrete_c25,bored piles 0.30 x 2.0 m for the bridge posts (>= 1.0 m beyond the toe),0.62,m3,ESTIMATE
+deck_t4,stair_kit,"guards: steel posts and rods, galvanized black",28.16,m,ESTIMATE
+deck_t4,stair_kit,oak handrails both sides,20.26,m,ESTIMATE
+deck_t4,stair_kit,"tread brackets, stainless fixings, anchors",2,set,ESTIMATE
+deck_t4,picnic,"one-piece picnic table 1.8 m, solid oak/larch, X legs, bolted (3 seats per side)",4,pcs,ESTIMATE
 deck_t4,misc,"flashings, fixings, sealants",1,global,ESTIMATE
 terrain_walls_v0.8,walls/slopes,"Welded mesh, hot-dip galvanized after welding, 50x50 mm, 2.7 mm wire, 1.5 x 20 m roll",9131.7,m2,"v0.8 earthworks and retaining, 5 terraces"
 terrain_walls_v0.8,walls/slopes,"Non-woven PP geotextile 150-200 g/m², UV stabilized",2375.5,m2,"v0.8 earthworks and retaining, 5 terraces"
